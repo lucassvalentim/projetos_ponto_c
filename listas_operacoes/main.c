@@ -3,8 +3,8 @@
 
 int main(){
 
-    Lista lista1;//polinomio1
-    Lista lista2;//polinomio2
+    Lista lista1;
+    Lista lista2;
     cria_lista_vazia(&lista1);
     cria_lista_vazia(&lista2);
 

@@ -13,23 +13,23 @@ int main(){
 
     //polinomio1
     x[0].coeficiente = 3;
-    x[0].expoente = 4;
+    x[0].expoente = 9;
 
     x[1].coeficiente = 2;
-    x[1].expoente = 3;
+    x[1].expoente = 5;
 
     x[2].coeficiente = 2;
-    x[2].expoente = 1;
+    x[2].expoente = 3;
 
     //polinomio2
     x[3].coeficiente = 4;
-    x[3].expoente = 5;
+    x[3].expoente = 9;
 
     x[4].coeficiente = 1;
-    x[4].expoente = 3;
+    x[4].expoente = 5;
 
     x[5].coeficiente = -1;
-    x[5].expoente = 0;
+    x[5].expoente = 4;
 
     //insere o polinomio1 na lista1
     for(int i = 0; i < 3; i ++){

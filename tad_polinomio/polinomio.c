@@ -69,6 +69,7 @@ Apontador soma_polinomios(Lista l1, Lista l2){
             l2 = l2->prox;
         }
 
+        if(l2->prox == NULL) break;
         l1 = l1->prox;
     }
 

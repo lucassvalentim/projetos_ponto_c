@@ -38,5 +38,11 @@ int main(){
     imprime(lista_intersecao);
     printf("\n");
 
+    //uniao de lista1 com lista2;
+    uniao(lista1, lista2);
+    printf("\nLista 1 U Lista2: ");
+    imprime(lista1);
+    printf("\n");
+
     return 0;
 }

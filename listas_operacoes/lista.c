@@ -3,10 +3,15 @@
 #include "lista.h"
 
 void cria_lista_vazia(Lista *l){
+
     *l = (Apontador)malloc(sizeof(Celula));
+    
 }
+
 int vazia(Lista l){
+
     return (l->prox == NULL);
+
 }
 
 void insere(Lista l, Item pol){
@@ -22,11 +27,13 @@ void insere(Lista l, Item pol){
 }
 
 void imprime(Lista l){
+
     Apontador aux = l->prox;
     while(aux != NULL){
         printf("%d ", aux->p.x);
         aux = aux->prox;
     }
+
 }
 
 Apontador intersecao(Lista l1, Lista l2){
@@ -46,4 +53,15 @@ Apontador intersecao(Lista l1, Lista l2){
         l1 = l1->prox;
     }
     return l3;
+
 }
+
+void uniao(Lista l1, Lista l2){
+
+    while(l2->prox != NULL){
+        insere(l1, l2->prox->p);
+        l2 = l2->prox;
+    }
+
+}
+

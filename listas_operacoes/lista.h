@@ -16,3 +16,4 @@ int vazia(Lista l);
 void insere(Lista l, Item pol);
 void imprime(Lista l);
 Apontador intersecao(Lista l1, Lista l2);
+void uniao(Lista l1, Lista l2);
